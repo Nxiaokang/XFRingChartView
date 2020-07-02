@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E1CE3A24AC77DF00E4AF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE3924AC77DF00E4AF2A /* AppDelegate.m */; };
+		40E1CE4024AC77DF00E4AF2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE3F24AC77DF00E4AF2A /* ViewController.m */; };
+		40E1CE4324AC77DF00E4AF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CE4124AC77DF00E4AF2A /* Main.storyboard */; };
+		40E1CE4524AC77E800E4AF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CE4424AC77E800E4AF2A /* Assets.xcassets */; };
+		40E1CE4824AC77E800E4AF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E1CE4624AC77E800E4AF2A /* LaunchScreen.storyboard */; };
+		40E1CE4B24AC77E800E4AF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE4A24AC77E800E4AF2A /* main.m */; };
+		40E1CE5524AC77E800E4AF2A /* XFRingChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE5424AC77E800E4AF2A /* XFRingChartViewTests.m */; };
+		40E1CE6024AC77E800E4AF2A /* XFRingChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE5F24AC77E800E4AF2A /* XFRingChartViewUITests.m */; };
+		40E1CE7224AC78CE00E4AF2A /* XFRingChartMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE7024AC78CE00E4AF2A /* XFRingChartMoreView.m */; };
+		40E1CE7624AC7B5000E4AF2A /* XFRingChartLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE7524AC7B5000E4AF2A /* XFRingChartLayerView.m */; };
+		40E1CE7924AC7CF200E4AF2A /* XFRingChartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1CE7824AC7CF200E4AF2A /* XFRingChartLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E1CE5124AC77E800E4AF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E1CE2D24AC77DF00E4AF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1CE3424AC77DF00E4AF2A;
+			remoteInfo = XFRingChartView;
+		};
+		40E1CE5C24AC77E800E4AF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E1CE2D24AC77DF00E4AF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1CE3424AC77DF00E4AF2A;
+			remoteInfo = XFRingChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40E1CE3524AC77DF00E4AF2A /* XFRingChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFRingChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CE3824AC77DF00E4AF2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40E1CE3924AC77DF00E4AF2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40E1CE3E24AC77DF00E4AF2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40E1CE3F24AC77DF00E4AF2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40E1CE4224AC77DF00E4AF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40E1CE4424AC77E800E4AF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E1CE4724AC77E800E4AF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40E1CE4924AC77E800E4AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1CE4A24AC77E800E4AF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40E1CE5024AC77E800E4AF2A /* XFRingChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFRingChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CE5424AC77E800E4AF2A /* XFRingChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFRingChartViewTests.m; sourceTree = "<group>"; };
+		40E1CE5624AC77E800E4AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1CE5B24AC77E800E4AF2A /* XFRingChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFRingChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1CE5F24AC77E800E4AF2A /* XFRingChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFRingChartViewUITests.m; sourceTree = "<group>"; };
+		40E1CE6124AC77E800E4AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1CE6E24AC78CE00E4AF2A /* XFRingChartMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFRingChartMoreView.h; sourceTree = "<group>"; };
+		40E1CE7024AC78CE00E4AF2A /* XFRingChartMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFRingChartMoreView.m; sourceTree = "<group>"; };
+		40E1CE7424AC7B5000E4AF2A /* XFRingChartLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFRingChartLayerView.h; sourceTree = "<group>"; };
+		40E1CE7524AC7B5000E4AF2A /* XFRingChartLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFRingChartLayerView.m; sourceTree = "<group>"; };
+		40E1CE7724AC7CF200E4AF2A /* XFRingChartLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFRingChartLayer.h; sourceTree = "<group>"; };
+		40E1CE7824AC7CF200E4AF2A /* XFRingChartLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFRingChartLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E1CE3224AC77DF00E4AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE4D24AC77E800E4AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE5824AC77E800E4AF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E1CE2C24AC77DF00E4AF2A = {
+			isa = PBXGroup;
+			children = (
+				40E1CE3724AC77DF00E4AF2A /* XFRingChartView */,
+				40E1CE5324AC77E800E4AF2A /* XFRingChartViewTests */,
+				40E1CE5E24AC77E800E4AF2A /* XFRingChartViewUITests */,
+				40E1CE3624AC77DF00E4AF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E1CE3624AC77DF00E4AF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CE3524AC77DF00E4AF2A /* XFRingChartView.app */,
+				40E1CE5024AC77E800E4AF2A /* XFRingChartViewTests.xctest */,
+				40E1CE5B24AC77E800E4AF2A /* XFRingChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E1CE3724AC77DF00E4AF2A /* XFRingChartView */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CE6D24AC78CE00E4AF2A /* RingChartView */,
+				40E1CE3824AC77DF00E4AF2A /* AppDelegate.h */,
+				40E1CE3924AC77DF00E4AF2A /* AppDelegate.m */,
+				40E1CE3E24AC77DF00E4AF2A /* ViewController.h */,
+				40E1CE3F24AC77DF00E4AF2A /* ViewController.m */,
+				40E1CE4124AC77DF00E4AF2A /* Main.storyboard */,
+				40E1CE4424AC77E800E4AF2A /* Assets.xcassets */,
+				40E1CE4624AC77E800E4AF2A /* LaunchScreen.storyboard */,
+				40E1CE4924AC77E800E4AF2A /* Info.plist */,
+				40E1CE4A24AC77E800E4AF2A /* main.m */,
+			);
+			path = XFRingChartView;
+			sourceTree = "<group>";
+		};
+		40E1CE5324AC77E800E4AF2A /* XFRingChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CE5424AC77E800E4AF2A /* XFRingChartViewTests.m */,
+				40E1CE5624AC77E800E4AF2A /* Info.plist */,
+			);
+			path = XFRingChartViewTests;
+			sourceTree = "<group>";
+		};
+		40E1CE5E24AC77E800E4AF2A /* XFRingChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CE5F24AC77E800E4AF2A /* XFRingChartViewUITests.m */,
+				40E1CE6124AC77E800E4AF2A /* Info.plist */,
+			);
+			path = XFRingChartViewUITests;
+			sourceTree = "<group>";
+		};
+		40E1CE6D24AC78CE00E4AF2A /* RingChartView */ = {
+			isa = PBXGroup;
+			children = (
+				40E1CE6E24AC78CE00E4AF2A /* XFRingChartMoreView.h */,
+				40E1CE7024AC78CE00E4AF2A /* XFRingChartMoreView.m */,
+				40E1CE7424AC7B5000E4AF2A /* XFRingChartLayerView.h */,
+				40E1CE7524AC7B5000E4AF2A /* XFRingChartLayerView.m */,
+				40E1CE7724AC7CF200E4AF2A /* XFRingChartLayer.h */,
+				40E1CE7824AC7CF200E4AF2A /* XFRingChartLayer.m */,
+			);
+			path = RingChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E1CE3424AC77DF00E4AF2A /* XFRingChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CE6424AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartView" */;
+			buildPhases = (
+				40E1CE3124AC77DF00E4AF2A /* Sources */,
+				40E1CE3224AC77DF00E4AF2A /* Frameworks */,
+				40E1CE3324AC77DF00E4AF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFRingChartView;
+			productName = XFRingChartView;
+			productReference = 40E1CE3524AC77DF00E4AF2A /* XFRingChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E1CE4F24AC77E800E4AF2A /* XFRingChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CE6724AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartViewTests" */;
+			buildPhases = (
+				40E1CE4C24AC77E800E4AF2A /* Sources */,
+				40E1CE4D24AC77E800E4AF2A /* Frameworks */,
+				40E1CE4E24AC77E800E4AF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1CE5224AC77E800E4AF2A /* PBXTargetDependency */,
+			);
+			name = XFRingChartViewTests;
+			productName = XFRingChartViewTests;
+			productReference = 40E1CE5024AC77E800E4AF2A /* XFRingChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E1CE5A24AC77E800E4AF2A /* XFRingChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1CE6A24AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartViewUITests" */;
+			buildPhases = (
+				40E1CE5724AC77E800E4AF2A /* Sources */,
+				40E1CE5824AC77E800E4AF2A /* Frameworks */,
+				40E1CE5924AC77E800E4AF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1CE5D24AC77E800E4AF2A /* PBXTargetDependency */,
+			);
+			name = XFRingChartViewUITests;
+			productName = XFRingChartViewUITests;
+			productReference = 40E1CE5B24AC77E800E4AF2A /* XFRingChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E1CE2D24AC77DF00E4AF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = xfxb;
+				TargetAttributes = {
+					40E1CE3424AC77DF00E4AF2A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					40E1CE4F24AC77E800E4AF2A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 40E1CE3424AC77DF00E4AF2A;
+					};
+					40E1CE5A24AC77E800E4AF2A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 40E1CE3424AC77DF00E4AF2A;
+					};
+				};
+			};
+			buildConfigurationList = 40E1CE3024AC77DF00E4AF2A /* Build configuration list for PBXProject "XFRingChartView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E1CE2C24AC77DF00E4AF2A;
+			productRefGroup = 40E1CE3624AC77DF00E4AF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E1CE3424AC77DF00E4AF2A /* XFRingChartView */,
+				40E1CE4F24AC77E800E4AF2A /* XFRingChartViewTests */,
+				40E1CE5A24AC77E800E4AF2A /* XFRingChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E1CE3324AC77DF00E4AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CE4824AC77E800E4AF2A /* LaunchScreen.storyboard in Resources */,
+				40E1CE4524AC77E800E4AF2A /* Assets.xcassets in Resources */,
+				40E1CE4324AC77DF00E4AF2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE4E24AC77E800E4AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE5924AC77E800E4AF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E1CE3124AC77DF00E4AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CE4024AC77DF00E4AF2A /* ViewController.m in Sources */,
+				40E1CE3A24AC77DF00E4AF2A /* AppDelegate.m in Sources */,
+				40E1CE7924AC7CF200E4AF2A /* XFRingChartLayer.m in Sources */,
+				40E1CE7224AC78CE00E4AF2A /* XFRingChartMoreView.m in Sources */,
+				40E1CE4B24AC77E800E4AF2A /* main.m in Sources */,
+				40E1CE7624AC7B5000E4AF2A /* XFRingChartLayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE4C24AC77E800E4AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CE5524AC77E800E4AF2A /* XFRingChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1CE5724AC77E800E4AF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1CE6024AC77E800E4AF2A /* XFRingChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E1CE5224AC77E800E4AF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1CE3424AC77DF00E4AF2A /* XFRingChartView */;
+			targetProxy = 40E1CE5124AC77E800E4AF2A /* PBXContainerItemProxy */;
+		};
+		40E1CE5D24AC77E800E4AF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1CE3424AC77DF00E4AF2A /* XFRingChartView */;
+			targetProxy = 40E1CE5C24AC77E800E4AF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40E1CE4124AC77DF00E4AF2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1CE4224AC77DF00E4AF2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40E1CE4624AC77E800E4AF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E1CE4724AC77E800E4AF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E1CE6224AC77E800E4AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40E1CE6324AC77E800E4AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E1CE6524AC77E800E4AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E1CE6624AC77E800E4AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40E1CE6824AC77E800E4AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFRingChartView.app/XFRingChartView";
+			};
+			name = Debug;
+		};
+		40E1CE6924AC77E800E4AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XFRingChartView.app/XFRingChartView";
+			};
+			name = Release;
+		};
+		40E1CE6B24AC77E800E4AF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFRingChartView;
+			};
+			name = Debug;
+		};
+		40E1CE6C24AC77E800E4AF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK6C9TRSW9;
+				INFOPLIST_FILE = XFRingChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kangkang.XFRingChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XFRingChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E1CE3024AC77DF00E4AF2A /* Build configuration list for PBXProject "XFRingChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CE6224AC77E800E4AF2A /* Debug */,
+				40E1CE6324AC77E800E4AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CE6424AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CE6524AC77E800E4AF2A /* Debug */,
+				40E1CE6624AC77E800E4AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CE6724AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CE6824AC77E800E4AF2A /* Debug */,
+				40E1CE6924AC77E800E4AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1CE6A24AC77E800E4AF2A /* Build configuration list for PBXNativeTarget "XFRingChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1CE6B24AC77E800E4AF2A /* Debug */,
+				40E1CE6C24AC77E800E4AF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E1CE2D24AC77DF00E4AF2A /* Project object */;
+}
